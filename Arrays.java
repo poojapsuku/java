@@ -15,11 +15,20 @@ public class Arrays {
 
         // print array elements one by one
         System.out.println("Students are ::"); 
-        for(int i=0;i<=Student.length;i++)
+        for(int i=0;i<=Student.length-1;i++)
          { 
             
-            System.out.println(i + "." +Student[i]); 
+            System.out.println((i+1) + "." +Student[i]); 
          }
+
+         // MultiDimensional Array
+
+         int[][] num = {{20,52,47,36,18},{43,16,75,38,90}}; // MD Array Declaration
+         
+         System.out.println(num[0][3]); 
+         System.out.println(num[0][4] + num[1][1]);
+
+
     }
         
     
