@@ -30,6 +30,13 @@ public class Arrays {
 
 
     }
+
+	public static void fill(boolean[] visited, boolean b) {
+	}
+
+	public static char[] toString(int[] array) {
+		return null;
+	}
         
     
     
